@@ -16,7 +16,7 @@ namespace contagem_regressiva
            Console.WriteLine();
            Console.BackgroundColor = ConsoleColor.White;
            Console.ForegroundColor = ConsoleColor.Black;
-           Console.Write("Digita o nome de um país com o artigo antes: ");
+           Console.Write("Digita o nome de um país com um artigo antes (a,as,o,os):");
            String país = Console.ReadLine();
            Console.WriteLine();
            Console.Write("Pressione qualquer tecla para começar a contagem regressiva para atacar ");
